@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Inter&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+*{
+ font-family: 'Nunito',sans-serif;
+}
+body{
+    background-color: rgb(218, 220, 221);
+}
+
+.graphic-section{
+    text-align: center;
+    font-size: 2rem;
+   
+}
+.graphic-title{
+    color:rgb(29, 124, 187) ;
+}
+.graphic-cards{
+    display: flex;
+    gap: 7rem;
+}
+
+.ps-card{
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 2rem;
+    width: 12rem;
+    position:relative;
+    left: 16rem;
+    top: 2rem;
+    height: 22rem;
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ps-card:hover{
+    box-shadow: 0 .5rem 1rem #141414;
+}
+
+.ps-img{
+    width: 12rem;
+}
+.ps-description{
+    color: rgb(22, 22, 22);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.ps-price{
+    color: rgb(13, 13, 14);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.ps-button{
+    background-color: rgb(35, 35, 36);
+    color: #fff6f6;
+    font-size: 1.6rem;
+    text-decoration: none;
+    transition: .7S;
+    -webkit-transition: .7S;
+    -moz-transition: .7S;
+    -ms-transition: .7S;
+    -o-transition: .7S;
+    text-align: center;
+    margin-left: 0rem;
+    border-radius:4 ;
+    -webkit-border-radius:4px ;
+    -moz-border-radius:4 ;
+    -ms-border-radius:4 ;
+    -o-border-radius:4 ;
+}
+
+.ps-button:hover{
+    color: rgb(19, 114, 209);
+}
+
+
+.After-effect-card{
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 2rem;
+    width: 12rem;
+    position:relative;
+    left: 23rem;
+    top: 2rem;
+    height: 22rem;
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.After-effect-card:hover{
+    box-shadow: 0 .5rem 1rem #141414;
+}
+
+.After-effect-img{
+    width: 12rem;
+}
+.After-effect-description{
+    
+    color: rgb(15, 15, 15);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.After-effect-price{
+    color: rgb(25, 25, 26);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.After-effect-button{
+    background-color: rgb(35, 35, 36);
+    color: #fff6f6;
+    font-size: 1.6rem;
+    text-decoration: none;
+    transition: .7S;
+    -webkit-transition: .7S;
+    -moz-transition: .7S;
+    -ms-transition: .7S;
+    -o-transition: .7S;
+    text-align: center;
+    margin-left: 0rem;
+    border-radius:4 ;
+    -webkit-border-radius:4px ;
+    -moz-border-radius:4 ;
+    -ms-border-radius:4 ;
+    -o-border-radius:4 ;
+}
+
+.After-effect-button:hover{
+    color: rgb(19, 114, 209);
+}
+.hours{
+    font-size: 1.5rem;
+}
